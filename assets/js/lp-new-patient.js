@@ -57,20 +57,14 @@ $(function () {
 
 //////// Banner and testimonial video with different top offsets
 $(function () {
-    //defaults
-   //defaults
-   $("#banner[data-player]").tntvideos({
+
+
+   $("[data-player]").tntvideos({
        playButton: '.play',
        closeButton: '.close',
        bodyPlaying: null,
        animate: true,
-       mobileWidth: 900,
-       onPlay: function() {
-           //do something
-       },
-       onClose: function() {
-           //do something
-       }
+       mobileWidth: 900
    });
 
 });
